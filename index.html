@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-The Plat-</title>
+</head>
+
+<body>
+    <div class="bg-image">
+        <div class="container d-flex justify-content-center">
+            <img src="TP_logo.png" alt="サイトロゴ" class="d-inline-block align-text-top" />
+        </div>
+        <div class="container d-flex justify-content-center flex-column align-items-center">
+            <h1 class=" fs-1 fw-bold text-light">-The Plat-第一話</h1>
+            <iframe src="https://scratch.mit.edu/projects/1122224768/embed" allowtransparency="true" width="1200"
+                height="800" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        </div>
+
+        <div id="a">
+            <p class="text-start fs-1 fw-bold text-light">-The Plat-とは</p>
+            <p class="text-start fs-3 text-light">
+                ある日、何の変哲もない平和な地上世界に一つの大きな穴が開いた。<br>
+                そこから出てきたのは自らを「プラットフォーマー」と名乗る謎の生命体。<br><br>
+                「それ」は突然に始まった。<br><br>
+                プラットフォーマーは世界をじわじわと、しかし確実に侵略していく。<br>
+                それに立ち向かうべく地上世界の住人はプラットフォーマーを狩り続ける...<br><br>
+                どちらにも属さないキリルロア...戦いは延々と、そして拡大していく.........<br>
+                - THE PLAT
+                -はTermi_Animationが制作する、戦闘アニメです。全体的にリズミカルな戦闘と予測不可能な展開が楽しめます。主に3つの勢力があり、地上世界を侵略する「プラットフォーマー」、それに対抗すべく戦闘を展開する「反プラットフォーマー」、どちらにも属さない第三勢力「キリルロア」...三つ巴の戦いは終わることなく続きます。完結は2026年1月頃予定。ところどころネットミームも交えて高い評価を得ているアニメです。ぜひご覧ください！
+            </p>
+        </div>
+        <div id="link">
+            <p class="text-start fs-1 fw-bold text-light">- THE PLAT- リンク一覧</p>
+        </div>
+        <div class="container d-flex justify-content-center">
+            <p class="text-secondary fs-5">© 2025 Termi_Animation - THE PLAT</p>
+        </div>
+    </div>
+    <script>
+        const target = document.getElementById("a");
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    target.animate(
+                        [
+                            { transform: 'translateY(200px)', opacity: 0 },
+                            { transform: 'translateY(0)', opacity: 1 }
+                        ],
+                        {
+                            duration: 1200,
+                            easing: 'ease-out',
+                            fill: 'forwards'
+                        }
+                    );
+                    observer.unobserve(target);
+                }
+            }, {
+                threshold: 0.1
+            });
+        })
+        observer.observe(target);
+        const link = document.getElementById("link");
+        const observelink = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    link.animate(
+                        [
+                            { transform: 'translateY(200px)', opacity: 0 },
+                            { transform: 'translateY(0)', opacity: 1 }
+                        ],
+                        {
+                            duration: 1200,
+                            easing: 'ease-out',
+                            fill: 'forwards'
+                        }
+                    );
+                    observer.unobserve(link);
+                }
+            }, {
+                threshold: 0.1
+            });
+        })
+        observelink.observe(link);
+        const links = [
+            "https://scratch.mit.edu/projects/1122224768/",
+            "https://scratch.mit.edu/projects/1122966669/",
+            "https://scratch.mit.edu/projects/1123528675/",
+            "https://scratch.mit.edu/projects/1124896403/",
+            "https://scratch.mit.edu/projects/1124001029/",
+            "https://scratch.mit.edu/projects/1126495457/",
+            "https://scratch.mit.edu/projects/1127504676",
+            "https://scratch.mit.edu/projects/1129020087/",
+            "https://scratch.mit.edu/projects/1130184999/",
+            "https://scratch.mit.edu/projects/1132173097/",
+            "https://scratch.mit.edu/projects/1132171734",
+            "https://scratch.mit.edu/projects/1135595621/",
+            "https://scratch.mit.edu/projects/1140358462/",
+            "https://scratch.mit.edu/projects/1142400857/",
+            "https://scratch.mit.edu/projects/1143494267/",
+            "https://scratch.mit.edu/projects/1150956980/",
+            "https://scratch.mit.edu/projects/1150956411/",
+            "https://scratch.mit.edu/projects/1162303019/",
+            "https://scratch.mit.edu/projects/1167108861/",
+            "https://scratch.mit.edu/projects/1170790765/",
+            "https://scratch.mit.edu/projects/1176660522/",
+            "https://scratch.mit.edu/projects/1180126471/",
+            "https://scratch.mit.edu/projects/1183351750/",
+            "https://scratch.mit.edu/projects/1186405408/",
+            "https://scratch.mit.edu/projects/1188575688/",
+            "https://scratch.mit.edu/projects/1190967586/",
+            "https://scratch.mit.edu/projects/1193399787/",
+            "https://scratch.mit.edu/projects/1194892722/",
+            "https://scratch.mit.edu/projects/1196776599/",
+            "https://scratch.mit.edu/projects/1198408820/",
+            "https://scratch.mit.edu/projects/1201813268/",
+            "https://scratch.mit.edu/projects/1205282287",
+            "https://scratch.mit.edu/projects/1205487551/",
+            "https://scratch.mit.edu/projects/1206868335/",
+            "https://scratch.mit.edu/projects/1208996740/",
+            "https://scratch.mit.edu/projects/1210902449/",
+            "https://scratch.mit.edu/projects/1214133049/",
+            "https://scratch.mit.edu/projects/1217941654/",
+            "https://scratch.mit.edu/projects/1220425416/",
+            "https://scratch.mit.edu/projects/1224419650/",
+            "https://scratch.mit.edu/projects/1227930400/",];
+        links.forEach((url, i) => {
+            const chilledLinktext = document.createElement("span");
+            const chilledLink = document.createElement("a");
+            chilledLink.textContent = url;
+            chilledLink.href = url;
+            chilledLink.target = "_blank";
+            chilledLinktext.innerHTML = (i + 1) + "話<br>";
+            link.appendChild(chilledLinktext);
+            link.appendChild(chilledLink);
+            link.appendChild(document.createElement("br"));
+        });
+
+    </script>
+</body>
+
+</html>

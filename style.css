@@ -1,0 +1,8 @@
+.bg-image {
+    background-size: cover;
+    background-image: url('TPサムネ.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh; 
+    background-attachment: fixed; 
+}
