@@ -133,8 +133,8 @@
             chilledLink.textContent = url;
             chilledLink.href = url;
             chilledLink.target = "_blank";
-            chilledLinktext.classList.add("text-light");
-            chilledLinktext.innerHTML = (i + 1) + "話<br>";
+            chilledLinktext.style.color = "white";
+            chilledLinktext.innerHTML = (i + 1) + "話:";
             link.appendChild(chilledLinktext);
             link.appendChild(chilledLink);
             link.appendChild(document.createElement("br"));
